@@ -1,4 +1,4 @@
-import flattenColorPalette from "tailwindcss/src/util/flattenColorPalette.js";
+import flattenColorPalette from "tailwindcss/lib/util/flattenColorPalette";
 import plugin from "tailwindcss/plugin.js";
 
 const darkColors = plugin(function ({ matchUtilities, theme }) {

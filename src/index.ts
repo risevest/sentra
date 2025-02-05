@@ -27,4 +27,6 @@ const config: Partial<Config> = {
   plugins: [darkColors, typography],
 };
 
-export default config;
+const sentra = config as Config;
+
+export default sentra;

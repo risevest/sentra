@@ -1,3 +1,3 @@
-declare module "tailwindcss/src/util/flattenColorPalette.js" {
+declare module "tailwindcss/lib/util/flattenColorPalette" {
   export default function flattenColorPalette(colors: any): any;
 }

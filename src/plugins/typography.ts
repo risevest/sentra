@@ -109,6 +109,7 @@ const typography = plugin(({ theme, matchUtilities }) => {
     {
       values: others,
       modifiers: theme("fontWeight"),
+      type: "lookup",
     }
   );
 });
