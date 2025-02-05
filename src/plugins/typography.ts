@@ -114,7 +114,14 @@ const typography = plugin(({ theme, matchUtilities }) => {
   );
 });
 
-const body = {
+type TypographyValues = Record<string, [fontSize: number, lineHeight: number]>;
+type TypographyBodyValues = Record<string, [fontSize: number, lineHeight: number, letterSpacing: number]>;
+type TypographyOthersValues = Record<
+  string,
+  [fontSize: number, lineHeight: number, letterSpacing: number, fontWeight: number]
+>;
+
+const body: TypographyBodyValues = {
   "button-text": [0.875, 1.1429, -0.04],
   "paragraph-large": [1, 1.5, -0.04],
   "paragraph-medium": [0.875, 1.7143, -0.04],
@@ -127,14 +134,14 @@ const body = {
   "labels-alt-small": [0.625, 1.4, 0.16],
 } as const;
 
-const altBody = {
+const altBody: TypographyValues = {
   large: [1, 1.1875],
   "mid-weight": [0.875, 1.1429],
   small: [0.75, 1.1667],
   label: [0.625, 1.2],
 };
 
-const headline = {
+const headline: TypographyValues = {
   xxl: [3, 1.2083],
   "mid-xl": [2.25, 1.1667],
   xl: [2, 1.1875],
@@ -144,13 +151,13 @@ const headline = {
   small: [1.125, 1.2222],
 };
 
-const display = {
+const display: TypographyValues = {
   small: [3.5, 1.1964],
   md: [4, 1.2031],
   large: [72, 1.1944],
 };
 
-const others = {
+const others: TypographyOthersValues = {
   "tag-text": [0.75, 1.6667, 0.1, 500],
   small: [0.75, 1.5833, -0.04, 400],
   caption: [0.75, 1.1667, -0.03, 500],
