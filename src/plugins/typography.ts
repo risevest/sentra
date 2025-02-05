@@ -11,7 +11,7 @@ const typography = plugin(({ theme, matchUtilities }) => {
         return {
           fontFamily: theme("typography.bodyFont", "'Work Sans'"),
           fontSize: value[0] + "rem",
-          lineHeight: value[1] + "rem",
+          lineHeight: value[1].toString(),
           letterSpacing: value[2] + "em",
           fontWeight: modifier || 400,
         };
@@ -33,7 +33,7 @@ const typography = plugin(({ theme, matchUtilities }) => {
         return {
           fontFamily: theme("typography.altBodyFont", "'Tomato Grotesk'"),
           fontSize: value[0] + "rem",
-          lineHeight: value[1] + "rem",
+          lineHeight: value[1].toString(),
           letterSpacing: "-0.01em",
           fontWeight: modifier || 400,
         };
@@ -55,7 +55,7 @@ const typography = plugin(({ theme, matchUtilities }) => {
         return {
           fontFamily: theme("typography.headingFont", "'Tomato Grotesk'"),
           fontSize: value[0] + "rem",
-          lineHeight: value[1] + "rem",
+          lineHeight: value[1].toString(),
           letterSpacing: "-0.01em",
           fontWeight: modifier || 400,
         };
@@ -77,7 +77,7 @@ const typography = plugin(({ theme, matchUtilities }) => {
         return {
           fontFamily: theme("typography.headingFont", "'Tomato Grotesk'"),
           fontSize: value[0] + "rem",
-          lineHeight: value[1] + "rem",
+          lineHeight: value[1].toString(),
           letterSpacing: "-0.01em",
           fontWeight: modifier || 500,
         };
@@ -100,7 +100,7 @@ const typography = plugin(({ theme, matchUtilities }) => {
           fontFamily: theme("typography.bodyFont", "'Work Sans'"),
 
           fontSize: value[0] + "rem",
-          lineHeight: value[1] + "rem",
+          lineHeight: value[1].toString(),
           letterSpacing: value[2] + "em",
           fontWeight: modifier || value[3],
         };
@@ -114,44 +114,45 @@ const typography = plugin(({ theme, matchUtilities }) => {
 });
 
 const body = {
-  "button-text": [0.875, 1, -0.04],
+  "button-text": [0.875, 1.1429, -0.04],
   "paragraph-large": [1, 1.5, -0.04],
-  "paragraph-medium": [0.875, 1.5, -0.04],
+  "paragraph-medium": [0.875, 1.7143, -0.04],
   large: [1, 1.5, -0.03],
-  medium: [0.875, 1.25, -0.03],
-  small: [0.75, 1, -0.02],
-  "labels-large": [0.875, 1.25, 0.16],
-  "labels-medium": [0.75, 1, 0.16],
-  "labels-small": [0.625, 0.875, -0.02],
-  "labels-alt-small": [0.625, 0.875, 0.16],
+  medium: [0.875, 1.4286, -0.03],
+  small: [0.75, 1.3333, -0.02],
+  "labels-large": [0.875, 1.4286, 0.16],
+  "labels-medium": [0.75, 1.3333, 0.16],
+  "labels-small": [0.625, 1.4, -0.02],
+  "labels-alt-small": [0.625, 1.4, 0.16],
 } as const;
 
 const altBody = {
-  large: [1, 1.875],
-  "mid-weight": [0.875, 1],
-  small: [0.75, 0.875],
-  label: [0.625, 0.75],
+  large: [1, 1.1875],
+  "mid-weight": [0.875, 1.1429],
+  small: [0.75, 1.1667],
+  label: [0.625, 1.2],
 };
 
 const headline = {
-  xxl: [3, 3.625],
-  "mid-xl": [2.25, 2.625],
-  xl: [2, 2.375],
-  "mid-large": [1.75, 2.125],
-  large: [1.5, 1.8125],
-  mw: [1.25, 1.5],
-  small: [1.125, 1.375],
+  xxl: [3, 1.2083],
+  "mid-xl": [2.25, 1.1667],
+  xl: [2, 1.1875],
+  "mid-large": [1.75, 1.2143],
+  large: [1.5, 1.2083],
+  mw: [1.25, 1.2],
+  small: [1.125, 1.2222],
 };
 
 const display = {
-  small: [3.5, 67],
-  md: [4, 77],
-  large: [72, 86],
+  small: [3.5, 1.1964],
+  md: [4, 1.2031],
+  large: [72, 1.1944],
 };
 
 const others = {
-  "tag-text": [0.75, 1.25, 0.1, 500],
-  small: [0.75, 1.1875, -0.04, 400],
-  caption: [0.75, 0.875, -0.03, 500],
+  "tag-text": [0.75, 1.6667, 0.1, 500],
+  small: [0.75, 1.5833, -0.04, 400],
+  caption: [0.75, 1.1667, -0.03, 500],
 };
+
 export default typography;
