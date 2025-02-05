@@ -16,6 +16,7 @@ const borderRadius = {
   "5xl": baseSpacing[10],
   "6xl": baseSpacing[11],
   "7xl": baseSpacing[12],
+  full: "99999px",
 };
 
 export default borderRadius;
