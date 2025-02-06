@@ -1,0 +1,30 @@
+{
+  "name": "@risemaxi/sentra",
+  "module": "dist/index.js",
+  "main": "dist/index.js",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "The Design tokens for The Rise Design System 3.0",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "tailwindcss": "3.4.17",
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/risevest/sentra.git"
+  },
+  "bugs": "https://github.com/risevest/sentra/issues",
+  "contributors": [
+    "Rise Developers"
+  ],
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "tailwindcss": ">=3.4.17"
+  }
+}
