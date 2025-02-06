@@ -154,7 +154,7 @@ const headline: TypographyValues = {
 const display: TypographyValues = {
   small: [3.5, 1.1964],
   md: [4, 1.2031],
-  large: [72, 1.1944],
+  large: [4.5, 1.1944],
 };
 
 const others: TypographyOthersValues = {
