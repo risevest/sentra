@@ -1,6 +1,6 @@
 import colors from "./index.js";
 
-const lightThemeTokens: Record<string, string> = {
+const lightThemeTokens = {
   "grey-50-700": colors.grey[50],
   "grey-50-800": colors.grey[50],
   "grey-100-400": colors.grey[100],
@@ -314,6 +314,6 @@ const lightThemeTokens: Record<string, string> = {
   "white80-grey80": colors.alpha["white-80"],
   "white90-grey90": colors.alpha["white-90"],
   "on-white-bg-alpha": colors.alpha["white-on-white-bg"],
-};
+} satisfies Record<string, string>;
 
 export default lightThemeTokens;
