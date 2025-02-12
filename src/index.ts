@@ -1,6 +1,7 @@
 import type { Config } from "tailwindcss";
 import borderRadius from "./border-radius/index.js";
 import colors from "./colors/index.js";
+import colorsPlugin from "./plugins/colors.js";
 import darkColors from "./plugins/dark-colors.js";
 import darkThemeTokens from "./colors/dark.js";
 import lightThemeTokens from "./colors/light.js";
@@ -24,7 +25,7 @@ const config: Partial<Config> = {
       },
     },
   },
-  plugins: [darkColors, typography],
+  plugins: [darkColors, typography, colorsPlugin],
 };
 
 const sentra = config as Config;

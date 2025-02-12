@@ -53,6 +53,17 @@ export default {
 };
 ```
 
+In React Native where styles are not inherited and you don't have access to the `currentColor` keyword in CSS. You can use the `text-var-[color]` utility to make the color available to the children. The children can then style based on that.
+
+Example:
+
+```jsx
+<View className="text-var-grey-50-700">
+  <SVG className="fill-var" />
+  <Text className="text-var">I'm Grey!</Text>
+</View>
+```
+
 ## Typography
 
 Sentra includes the RDS typography. It does this by stripping off the font details (family, size, weight, style) and duplicate identifiers on the token.
