@@ -18,6 +18,14 @@ const darkColors = plugin(function ({ matchUtilities, theme }) {
           },
         };
       },
+      "text-var": (value) => {
+        return {
+          "&:is(.dark *)": {
+            color: value,
+            "--color": value,
+          },
+        };
+      },
       border(value) {
         return {
           "&:is(.dark *)": {
