@@ -1,6 +1,6 @@
 import plugin from "tailwindcss/plugin.js";
 
-const typography = plugin(({ theme, matchUtilities }) => {
+const typography = plugin(({ theme, matchUtilities, addUtilities }) => {
   matchUtilities(
     {
       "text-body": (value, { modifier }) => {
@@ -112,6 +112,12 @@ const typography = plugin(({ theme, matchUtilities }) => {
       type: "lookup",
     }
   );
+
+  addUtilities({
+    ".text-body-medium\\/semibold": {
+      letterSpacing: "-0.02em",
+    },
+  });
 });
 
 type TypographyValues = Record<string, [fontSize: number, lineHeight: number]>;
