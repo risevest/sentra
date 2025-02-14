@@ -25,7 +25,7 @@ const config: Partial<Config> = {
       },
     },
   },
-  plugins: [darkColors, typography, colorsPlugin],
+  plugins: [colorsPlugin, darkColors, typography],
 };
 
 const sentra = config as Config;
