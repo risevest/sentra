@@ -78,9 +78,9 @@ And for slanted/italicised variants, use the `italic` utility.
 
 `Alt-Body/Tomato/Large/Large 16 Slanted Semibold` would be represented as `"text-alt-body-large/semibold italic"`.
 
-> Note that the typography uses `Tomato Grotesk` for the headline, display and alt-body tokens and `Work Sans` for other body typography. You need to have these set up in your project or configure the font family of the typography as described below.
+> Note that the typography uses `Tomato Grotesk` for the headline, display and alt-body tokens and `Work Sans` for the alt-headline and other body typography. You need to have these set up in your project or configure the font family of the typography as described below.
 
-To change the default font families for the typography, add a `typography` field to your `theme.extend`, then include the `bodyFont`, `headingFont` and `altBodyFont` fields with the font family to use.
+To change the default font families for the typography, add a `typography` field to your `theme.extend`, then include the `bodyFont`, `headingFont`, `altBodyFont` and `altHeadingFont` fields with the font family to use.
 
 ```js
 import sentra from "@risemaxi/sentra";
@@ -95,6 +95,7 @@ export default {
         bodyFont: '"Work Sans"',
         headingFont: '"Clash Grotesk"',
         altBodyFont: '"Work Sans"',
+        altHeadingFont: '"Roboto"',
       },
     },
   },

@@ -47,6 +47,28 @@ const typography = plugin(({ theme, matchUtilities, addUtilities }) => {
 
   matchUtilities(
     {
+      "text-alt-headline": (value, { modifier }) => {
+        if (!Array.isArray(value)) {
+          return null;
+        }
+
+        return {
+          fontFamily: theme("typography.altHeadingFont", "'Work Sans'"),
+          fontSize: value[0] + "rem",
+          lineHeight: value[1].toString(),
+          letterSpacing: "-0.06em",
+          fontWeight: modifier || 400,
+        };
+      },
+    },
+    {
+      values: altHeadline,
+      modifiers: theme("fontWeight"),
+    }
+  );
+
+  matchUtilities(
+    {
       "text-headline": (value, { modifier }) => {
         if (!Array.isArray(value)) {
           return null;
@@ -155,6 +177,10 @@ const headline: TypographyValues = {
   large: [1.5, 1.2083],
   mw: [1.25, 1.2],
   small: [1.125, 1.2222],
+};
+
+const altHeadline: TypographyValues = {
+  xl: headline.xl,
 };
 
 const display: TypographyValues = {
