@@ -14,6 +14,7 @@ const config: Partial<Config> = {
       bodyFont: '"Work Sans"',
       headingFont: '"Tomato Grotesk"',
       altBodyFont: '"Tomato Grotesk"',
+      altHeadingFont: '"Work Sans"',
     },
     colors,
     spacing,
