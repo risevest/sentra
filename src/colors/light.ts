@@ -292,7 +292,6 @@ const lightThemeTokens = {
   "stroke-brand": colors["rise-teal"][500],
   "brand-alpha10": colors.alpha["teal-10"],
   "brand-alpha20": colors.alpha["teal-20"],
-  brand: colors["rise-teal"][500],
   "brand-alpha10-grey10": colors.alpha["teal-10"],
   error: colors.error[500],
   "error-alpha10": colors.alpha["error-10"],

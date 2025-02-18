@@ -33,6 +33,34 @@ const darkColors = plugin(function ({ matchUtilities, theme }) {
           },
         };
       },
+      "border-b": (value) => {
+        return {
+          "&:is(.dark *)": {
+            borderBottomColor: value,
+          },
+        };
+      },
+      "border-l": (value) => {
+        return {
+          "&:is(.dark *)": {
+            borderLeftColor: value,
+          },
+        };
+      },
+      "border-r": (value) => {
+        return {
+          "&:is(.dark *)": {
+            borderRightColor: value,
+          },
+        };
+      },
+      "border-t": (value) => {
+        return {
+          "&:is(.dark *)": {
+            borderTopColor: value,
+          },
+        };
+      },
       outline(value) {
         return {
           "&:is(.dark *)": {

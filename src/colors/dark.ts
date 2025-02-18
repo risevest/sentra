@@ -306,7 +306,6 @@ const darkThemeTokens = {
   "stroke-brand": colors["rise-teal"][400],
   "brand-alpha10": colors.alpha["teal-10"],
   "brand-alpha20": colors.alpha["teal-20"],
-  brand: colors["rise-teal"][400],
   "brand-alpha10-grey10": colors.alpha["grey-10"],
   error: colors.error[400],
   "error-alpha10": colors.alpha["error-10"],
@@ -328,6 +327,9 @@ const darkThemeTokens = {
   "white80-grey80": colors.alpha["grey-80"],
   "white90-grey90": colors.alpha["grey-90"],
   "on-white-bg-alpha": colors.alpha["grey-70"],
+  brand: {
+    DEFAULT: colors["rise-teal"][400],
+  },
 };
 
 export default darkThemeTokens;
