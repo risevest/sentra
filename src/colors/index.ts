@@ -166,14 +166,17 @@ const _colors = {
   "gradient-teal-light-mode-2": "#9fdce1b3",
   "gradient-teal-dark-mode-1": "#006d79",
   "gradient-teal-dark-mode-2": "#002a3a1a",
-  "surface-overlay-brand:": "#9fdce1a6",
+  "surface-overlay-brand": "#9fdce1a6",
   "pink-accent-fill": "#f6e4f0",
   "pink-accent-primary": "#de00a0",
   "progressive-blur-fill": "#ffffff01",
 };
 
 const colors = Object.assign(_colors, {
-  brand: _colors["rise-teal"],
+  brand: {
+    ..._colors["rise-teal"],
+    DEFAULT: _colors["rise-teal"]["500"],
+  },
 });
 
 export default colors;

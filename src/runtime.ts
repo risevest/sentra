@@ -1,6 +1,6 @@
 import borderRadius from "./border-radius/index.js";
-import darkThemeTokens from "./colors/dark.js";
 import colors from "./colors/index.js";
+import darkThemeTokens from "./colors/dark.js";
 import lightThemeTokens from "./colors/light.js";
 import spacing from "./spacing/index.js";
 
@@ -13,6 +13,10 @@ const lightColors = {
 const darkColors: Colors = {
   ...lightColors,
   ...darkThemeTokens,
+  brand: {
+    ...lightColors.brand,
+    ...darkThemeTokens.brand,
+  },
   alpha: {
     ...colors.alpha,
     ...darkThemeTokens.alpha,
