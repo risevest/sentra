@@ -167,6 +167,7 @@ const altBody: TypographyValues = {
   "mid-weight": [0.875, 1.1429],
   small: [0.75, 1.1667],
   label: [0.625, 1.2],
+  "small-label": [0.5, 1.75],
 };
 
 const headline: TypographyValues = {
