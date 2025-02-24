@@ -295,7 +295,7 @@ const darkThemeTokens = {
   placeholders: colors.alpha["grey-10"],
   "surface-overlay-brand": "#002a3acc",
   "pink-accent-fill": "#88477240",
-  "pink-accent-primary": "#002a3acc",
+  "pink-accent-primary": "#BA0387",
   "surface-overlay-grey": colors.alpha["grey-70"],
   "rise-logo-grey": colors.alpha["grey-30"],
   "stroke-grey-alpha10": colors.alpha["grey-20"],
