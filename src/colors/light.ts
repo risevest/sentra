@@ -243,7 +243,7 @@ const lightThemeTokens = {
   "error-600-500": colors.error[600],
   "error-700-500": colors.error[700],
   "error-700-600": colors.error[700],
-  "error-alpha20": colors.error[600],
+  "error-alpha20": colors.alpha["error-20"],
   "error-alpha20-alpha30": colors.error[600],
   "error-alpha20-alpha40": colors.error[600],
   "white-to-grey700": colors.white,
