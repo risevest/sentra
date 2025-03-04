@@ -140,6 +140,12 @@ const typography = plugin(({ theme, matchUtilities, addUtilities }) => {
       letterSpacing: "-0.02em",
     },
   });
+
+  addUtilities({
+    ".text-body-small\\/semibold": {
+      letterSpacing: "-0.02em",
+    },
+  });
 });
 
 type TypographyValues = Record<string, [fontSize: number, lineHeight: number]>;
@@ -155,7 +161,7 @@ const body: TypographyBodyValues = {
   "paragraph-medium": [0.875, 1.7143, -0.04],
   large: [1, 1.5, -0.03],
   medium: [0.875, 1.4286, -0.03],
-  small: [0.75, 1.3333, -0.02],
+  small: [0.75, 1.3333, -0.03],
   "labels-large": [0.875, 1.4286, 0.16],
   "labels-medium": [0.75, 1.3333, 0.16],
   "labels-small": [0.625, 1.4, -0.02],
