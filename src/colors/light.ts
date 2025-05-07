@@ -310,6 +310,7 @@ const lightThemeTokens = {
   "chartline-deposits-500-500": colors["rise-teal"][500],
   "chartline-withdrawals-500-500": colors.error[500],
   "loading-icon": colors.alpha["teal-10"],
+  "stroke-error": colors.error[500],
   "stroke-brand": colors["rise-teal"][500],
   "brand-alpha10": colors.alpha["teal-10"],
   "brand-alpha20": colors.alpha["teal-20"],

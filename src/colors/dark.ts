@@ -329,6 +329,7 @@ const darkThemeTokens = {
   "chartline-deposits-500-500": colors["rise-teal"][500],
   "chartline-withdrawals-500-500": colors.error[500],
   "loading-icon": colors.alpha["teal-10"],
+  "stroke-error": colors.error[400],
   "stroke-brand": colors["rise-teal"][400],
   "brand-alpha10": colors.alpha["teal-10"],
   "brand-alpha20": colors.alpha["teal-20"],
