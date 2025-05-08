@@ -269,6 +269,8 @@ const darkThemeTokens = {
   "error-200-1050": colors.error[1050],
   "error-250-950": colors.error[950],
   "error-500-1100": colors.error[1100],
+  "error-50-1100": colors.error[1100],
+  "error-100-400": colors.error[400],
   "error-alpha20": colors.alpha["error-20"],
   "error-alpha30": colors.alpha["error-20"],
   "error-alpha10-alpha30": colors.alpha["error-30"],
