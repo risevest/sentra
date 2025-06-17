@@ -341,6 +341,7 @@ const lightThemeTokens = {
   "white80-grey80": colors.alpha["white-80"],
   "white90-grey90": colors.alpha["white-90"],
   "on-white-bg-alpha": colors.alpha["white-on-white-bg"],
+  "indigo-400-300": colors.indigo[400],
 } satisfies Record<string, string>;
 
 export default lightThemeTokens;

@@ -360,6 +360,7 @@ const darkThemeTokens = {
   "white80-grey80": colors.alpha["grey-80"],
   "white90-grey90": colors.alpha["grey-90"],
   "on-white-bg-alpha": colors.alpha["grey-70"],
+  "indigo-400-300": colors.indigo[300],
   brand: {
     DEFAULT: colors["rise-teal"][400],
   },
