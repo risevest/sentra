@@ -103,11 +103,17 @@ const lightThemeTokens = {
   "brand-grey100-alpha10": colors.grey[100],
   "brand-alpha10-alpha20": colors.alpha["teal-10"],
 
-  "brand-50-alpha10": colors.brand["50"],
-  "brand-50-alpha20": colors.brand["50"],
-  "brand-50-alpha30": colors.brand["50"],
-  "brand-50-alpha40": colors.brand["50"],
-  "brand-50-alpha50": colors.brand["50"],
+  "brand-50-alpha10": colors.brand[50],
+  "brand-50-alpha20": colors.brand[50],
+  "brand-50-alpha30": colors.brand[50],
+  "brand-50-alpha40": colors.brand[50],
+  "brand-50-alpha50": colors.brand[50],
+
+  "brand-50-alpha10-solid": colors.brand[50],
+  "brand-50-alpha20-solid": colors.brand[50],
+  "brand-50-alpha30-solid": colors.brand[50],
+  "brand-50-alpha40-solid": colors.brand[50],
+  "brand-50-alpha50-solid": colors.brand[50],
 
   "brand-100-alpha10": colors.brand[100],
   "brand-100-alpha20": colors.brand[100],
