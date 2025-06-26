@@ -100,7 +100,7 @@ const _colors = {
   warning: {
     "25": "#fffcf5",
     "50": "#fffaeb",
-    "100": "#FAEBBF",
+    "100": "#faebbf",
     "200": "#fedf89",
     "300": "#fec84b",
     "400": "#fdb022",
