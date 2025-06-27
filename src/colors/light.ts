@@ -7,6 +7,7 @@ const lightThemeTokens = {
   "grey-100-500": colors.grey[100],
   "grey-100-600": colors.grey[100],
   "grey-100-700": colors.grey[100],
+  "grey-100-750": colors.grey[100],
   "grey-100-800": colors.grey[100],
   "grey-100-900": colors.grey[100],
   "grey-100-white": colors.grey[100],
