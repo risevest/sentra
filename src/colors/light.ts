@@ -239,7 +239,7 @@ const lightThemeTokens = {
   "white-to-alpha80": colors.white,
   "card-on-grey-bg": colors.white,
   "card-with-shadow": colors.white,
-  "surface-primary-alt": colors.grey[100],
+  "surface-primary-alt": colors.grey[55],
   "surface-primary-alt-1": colors.grey[100],
   "warning-stroke": colors.alpha["warning-20"],
   "warning-400-300": colors.warning[400],
