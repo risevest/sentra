@@ -413,7 +413,7 @@ const lightThemeTokens = {
   "purple-600-500": colors.purple[600],
   "purple-600-700": colors.purple[600],
   "purple-600-800": colors.purple[600],
-
+  "sub-main-text": colors.grey[900],
   "warning-50-alpha10": colors.warning[50],
   "warning-50-alpha20": colors.warning[50],
   "warning-50-alpha30": colors.warning[50],

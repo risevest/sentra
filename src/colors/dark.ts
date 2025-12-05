@@ -430,7 +430,7 @@ const darkThemeTokens = {
   "purple-600-500": colors.purple[500],
   "purple-600-700": colors.purple[700],
   "purple-600-800": colors.purple[800],
-
+  "sub-main-text": colors.grey[50],
   "warning-50-alpha10": colors.alpha["warning-10"],
   "warning-50-alpha20": colors.alpha["warning-20"],
   "warning-50-alpha30": colors.alpha["warning-30"],
