@@ -1,6 +1,6 @@
 name: Npm Publish
 
-on: 
+on:
   release:
     types: [published]
   workflow_dispatch:
@@ -23,7 +23,7 @@ jobs:
         shell: bash
 
       - name: 🚀 Publish
-        run: bun publish --access public
+        run: npm publish --access public
         env:
           CI: true
           NPM_CONFIG_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
