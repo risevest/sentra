@@ -26,4 +26,3 @@ jobs:
         run: npm publish --access public
         env:
           CI: true
-          NPM_CONFIG_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
