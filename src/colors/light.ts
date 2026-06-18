@@ -33,7 +33,9 @@ const lightThemeTokens = {
   "grey-200-800": colors.grey[200],
   "grey-200-900": colors.grey[200],
   "grey-200-white": colors.grey[200],
+  "grey-200-alpha10": colors.grey[200],
   "grey-200-alpha30": colors.grey[200],
+
   "grey-300-400": colors.grey[300],
   "grey-300-500": colors.grey[300],
   "grey-300-600": colors.grey[300],
@@ -338,6 +340,7 @@ const lightThemeTokens = {
   "text-on-purple-fill": colors.white,
   placeholders: colors.grey[100],
   "surface-overlay-brand": "#9fdce1a6",
+  "surface-overlay-brand-alt": "#20AEB61A",
   "pink-accent-fill": "#f6e4f0",
   "pink-accent-primary": "#de00a0",
   "surface-overlay-grey": colors.alpha["grey-20"],
