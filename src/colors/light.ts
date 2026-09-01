@@ -253,7 +253,7 @@ const lightThemeTokens = {
   "success-100-alpha10": colors.success[100],
   "success-200-alpha10": colors.success[200],
   "success-500-400": colors.success[500],
-
+  "success-600-400": colors.success[600],
   "error-50-alpha10": colors.error[50],
   "error-50-alpha20": colors.error[50],
   "error-50-alpha30": colors.error[50],
