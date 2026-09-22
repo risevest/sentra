@@ -1,6 +1,7 @@
 import colors from "./index.js";
 
 const lightThemeTokens = {
+  "grey-50-alpha10": colors.grey[50],
   "grey-50-700": colors.grey[50],
   "grey-50-800": colors.grey[50],
   "grey-100-400": colors.grey[100],
