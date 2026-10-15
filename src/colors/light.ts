@@ -36,6 +36,7 @@ const lightThemeTokens = {
   "grey-200-900": colors.grey[200],
   "grey-200-white": colors.grey[200],
   "grey-200-alpha10": colors.grey[200],
+  "grey-200-alpha20": colors.grey[200],
   "grey-50-alpha20": colors.grey[50],
   "grey-200-alpha30": colors.grey[200],
 
