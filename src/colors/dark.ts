@@ -46,6 +46,7 @@ const darkThemeTokens = {
   "grey-200-600": colors.grey[600],
   "grey-200-700": colors.grey[700],
   "grey-200-800": colors.grey[800],
+  "grey-200-850": colors.grey[850],
   "grey-200-900": colors.grey[900],
   "grey-200-white": colors.white,
   "grey-200-alpha10": colors.alpha["grey-10"],
