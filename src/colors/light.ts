@@ -2,6 +2,7 @@ import colors from "./index.js";
 
 const lightThemeTokens = {
   "grey-50-alpha10": colors.grey[50],
+  "grey-50-alpha30": colors.grey[50],
   "grey-50-700": colors.grey[50],
   "grey-50-800": colors.grey[50],
   "grey-100-400": colors.grey[100],
@@ -32,9 +33,11 @@ const lightThemeTokens = {
   "grey-200-600": colors.grey[200],
   "grey-200-700": colors.grey[200],
   "grey-200-800": colors.grey[200],
+  "grey-200-850": colors.grey[200],
   "grey-200-900": colors.grey[200],
   "grey-200-white": colors.grey[200],
   "grey-200-alpha10": colors.grey[200],
+  "grey-200-alpha20": colors.grey[200],
   "grey-50-alpha20": colors.grey[50],
   "grey-200-alpha30": colors.grey[200],
 
